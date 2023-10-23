@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+}
+
+.container-block {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box {
+    max-width: 500px;
+    width: 100%;
+}
+
+.box2 {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(37, 74, 129);
+    font-size: 48px;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.chain {
+    background-color: rgb(136, 166, 212);
+}
